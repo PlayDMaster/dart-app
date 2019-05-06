@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel='stylesheet' href='css/main.css' />
+</head>
+
+<body>
+  <nav></nav>
+  <header></header>
+  <main>
+
+    <div class='form-container'>
+      <div>
+        <form class='form-data' id='playersForm'>
+          <label>Enter player one name: <input type='text' id='p1Name' /></label><br>
+          <label>Enter player two name: <input type='text' id='p2Name' /></label><br>
+          <label>Choose game type:
+            <select id='gameType'>
+              <option value='301'>301</option>
+              <option value='501'>501</option>
+              <option value='701'>701</option>
+            </select>
+          </label>
+          <input type='submit' value='Submit' />
+        </form>
+      </div>
+    </div>
+
+    <div class='game-container'>
+      <div>
+        <div class='row'>
+          <div class='col-5 name' id='player1Name'></div>
+          <div class='col-2 game' id='gameOf'></div>
+          <div class='col-5 name' id='player2Name'></div>
+        </div>
+        <div class='row'>
+          <div class='col-2 score-area' id='score0'></div>
+          <div class='col-3 score-area' id='score1'></div>
+          <div class='col-2 score-area'>3</div>
+          <div class='col-2 score-area' id='score2'></div>
+          <div class='col-3 score-area' id='score3'></div>
+        </div>
+        <div class='row'>
+          <div class='col-2 score-area' id='score4'></div>
+          <div class='col-3 score-area' id='score5'></div>
+          <div class='col-2 score-area'>6</div>
+          <div class='col-2 score-area' id='score6'></div>
+          <div class='col-3 score-area' id='score7'></div>
+        </div>
+        <div class='row'>
+          <div class='col-2 score-area' id='score8'></div>
+          <div class='col-3 score-area' id='score9'></div>
+          <div class='col-2 score-area'>9</div>
+          <div class='col-2 score-area' id='score10'></div>
+          <div class='col-3 score-area' id='score11'></div>
+        </div>
+        <div class='row'>
+          <div class='col-2 score-area' id='score12'></div>
+          <div class='col-3 score-area' id='score13'></div>
+          <div class='col-2 score-area'>12</div>
+          <div class='col-2 score-area' id='score14'></div>
+          <div class='col-3 score-area' id='score15'></div>
+        </div>
+        <div class='row'>
+          <div class='col-2 score-area' id='score16'></div>
+          <div class='col-3 score-area' id='score17'></div>
+          <div class='col-2 score-area'>15</div>
+          <div class='col-2 score-area' id='score18'></div>
+          <div class='col-3 score-area' id='score19'></div>
+        </div>
+        <div class='row'>
+          <div class='col-2 score-area' id='score20'></div>
+          <div class='col-3 score-area' id='score21'></div>
+          <div class='col-2 score-area'>18</div>
+          <div class='col-2 score-area' id='score22'></div>
+          <div class='col-3 score-area' id='score23'></div>
+        </div>
+        <div class='input-scores'>
+          <form id='inputScores'>
+            <input type='number' id='numEntered' />
+            <input type='submit' value='Enter Score'>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class='stats-container'>
+      <div>
+        <h3></h3>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+<script type='text/Javascript' src='javascript/main.js'></script>
+
+</html>
